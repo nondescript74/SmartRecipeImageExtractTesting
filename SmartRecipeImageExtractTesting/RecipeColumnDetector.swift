@@ -55,7 +55,7 @@ struct IngredientRow: Sendable {
 
 // MARK: - Main Detector Class
 
-class RecipeColumnDetector {
+final class RecipeColumnDetector: Sendable {
     
     // MARK: - Public Interface
     

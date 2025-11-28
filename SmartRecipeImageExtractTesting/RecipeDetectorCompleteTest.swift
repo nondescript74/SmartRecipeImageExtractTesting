@@ -93,6 +93,7 @@ struct RecipeDetectorTestApp: View {
 
 // MARK: - View Model
 
+@MainActor
 class RecipeDetectorViewModel: ObservableObject {
     @Published var displayImage: UIImage?
     @Published var debugImage: UIImage?
